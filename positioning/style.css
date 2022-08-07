@@ -1,0 +1,22 @@
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.locate{
+    position: relative; /*sticky fixed absolute*/
+    left: 30px;
+    top:30px;
+}

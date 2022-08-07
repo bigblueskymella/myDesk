@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #1ed760;
+}
+
+nav{
+    height:80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main{
+    height: 969px;
+    background-color: rgb(41,65,171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item{
+    padding: 28px 17px;
+    font-weight: 700;
+}
+
+.headline{
+    font-size: 156px;
+    font-weight: 900;
+    color: #1ed760;
+    position: relative;
+    left: 220px;
+    padding-bottom: 40px;
+}
+
+.headline-first{
+    position: relative;
+    left:-2.5em; /*모바일 등 반응형웹사이트 알아서 작아짐*/
+}
+
+.sub-headline{
+    color: #1ed760;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.button-area{
+    text-align: center;
+}
+
+.button-style{
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+}
+
+.button-style:hover{
+    transform: scale(1.1) /*살짝커지게*/
+}
+
+.footer-box{
+    width: 1170px;
+    height: 100vh;
+}
+
+.footer-redbox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.footer-leftbox{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px blue;
+}
+
+.footer-title {
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+    font-size: 16px;
+}
+
+.block1{
+    display: flex;
+    flex-direction: column;
+    padding: 35px 15px;
+    width: 190px;
+    height:346px;
+}
+
+.footer-leftbox a{
+    padding: 5px 0;
+}
+
+.footer-logo{
+    margin-top: 20px;
+}
+
+.footer-icon{
+    border: solid 1px green;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-right {
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+  }
+
+.icon:hover {
+    color: #2de26d;
+  }
+
+.first-line{
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+
+.second-line{
+    color: #919496;
+    display: flex;
+    justify-content: space-between;
+    /*margin-top: 12px;*/
+}
+
+.second-line a{
+    color: #919496;
+}
+.second-line a:hover{
+    color: #2de26d;
+}

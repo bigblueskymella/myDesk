@@ -1,0 +1,30 @@
+.parents{
+    display: flex;
+    border: solid 1px red;
+    width: 100vh;
+    height: 150px;
+    background-color: black;
+    align-items: end;
+}
+
+.p2{
+    display: flex;
+    border: solid 1px green;
+    float: right;
+    width: 100vh;
+    justify-content:flex-end;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+}

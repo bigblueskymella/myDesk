@@ -1,0 +1,17 @@
+.box{
+    width: 200px;
+    padding:50px;
+    border:solid 50px rgb(155, 89, 182);
+}
+
+.green{
+    border: solid 50px green;
+    /* display: none; */
+    /* visibility:hidden 둘의 차이점 */
+}
+
+.blue{
+    border: solid 50px #3498db;
+}
+
+/*색깔가져오기 https://flatuicolors.com/palette/defo */
