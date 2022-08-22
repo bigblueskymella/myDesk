@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>회원 정보 입력</h3>
+    <form action="">
+        <fieldset>
+            <legend>로그인 정보</legend> <!-- 필드셋의 제목-->
+            <label for="user-id">아이디<input type="text" id="user-id" name="id" autofocus></label>
+            <label for="pw">비밀번호</label> <input type="password" id="pw" name="pwd" size="8">
+            <input type="submit" value="로그인"> <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>추가 정보</legend>
+            <label for="email">메일 주소 : </label>
+            <input type="email">
+            <br><br>
+            <label for="choice">메일 수신</label>
+            <input type="radio" name="mailing">
+            <!--같은 name 범위내 선택-->
+            <label for="mailing_y">메일 수신 동의</label>
+            <input type="radio" name="mailing">
+            <label for="mailing_n">메일 수신 거부</label>
+            <br><br>
+
+            <label for="phone">연락처 : </label>
+            <input type="tel" id="phone" placeholder="하이픈을 빼고 입력해주세요.">
+            <br>
+            <label for="birth">생년월일 : </label>
+            <input type="text" id="birth" placeholder="YYYY-MM-DD"> <br>
+        
+            <label for="checkbox">취미 : </label>
+            <input type="checkbox" name="book" id="book" checked>
+            <label for="checkbox">독서</label>
+            <input type="checkbox" id="music" name="music">
+            <label for="horns">음악감상</label>
+            <input type="checkbox" name="ex" id="ex">
+            <label for="checkbox">운동</label> <br><br>
+            
+
+        <label for="path">가입 경로</label>
+        <select name="path" id="path">
+            <option value="blog">블로그</option>
+            <option value="search">검색</option>
+            <option value="recommend">지인추천</option>
+            <option value="sns">SNS</option>
+        </select>
+        <br><br>
+
+        <label for="memo">메모</label>
+        <textarea name="opinion" cols="30" rows="10" placeholder="자유롭게 의견을 남겨주세요."></textarea>
+    </fieldset>
+    </form>
+    <button>제출</button>
+
+    <input type="date">
+    <label for="phone">연락처 : </label>   
+     
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+
+ul li {
+    display: inline;
+}
+
+a {
+    
+    text-decoration: none;
+    color: black;
+    background-color: #ccc;
+    border: 1px solid gray;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding: 2px 15px;
+    margin: 0;
+}
+
+a:hover{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+.lastButton a:hover{
+    background-color: red;
+    font-weight: bold;
+    color: white;
+}
+/*
+.box1{
+    border: 1px solid olivedrab;
+    width: 100px;
+    float: right;
+}
+
+.box2{
+    background-color: blue;
+    width: 100px;
+}
+
+.box3{
+    background-color: yellow;
+    width: 100px;
+}
+
+.box4{
+    background-color: red;
+    width: 100px;
+}
+
+.box5{
+    background-color: orange;
+    width: 100px;
+}

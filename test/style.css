@@ -1,0 +1,41 @@
+label{
+	font-size: 13px;
+	width: 110px;
+}
+
+button{
+	display: block;
+}
+
+ button:hover{
+	background-color: #222;
+	color: #fff;
+}
+
+
+/* input:checked + label {
+	color: red;
+	font-weight: bold;
+}
+
+/*
+table th, td {
+	padding: 10px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+table thead th {
+	background-color: lightblue;
+	font-size: 14px;
+}
+table tbody td {
+	font-size: 13px;
+}
+.col-color {
+	background-color: cadetblue;
+	color: #fff;
+}
+.row-color {
+	background-color: indianred;
+	color: #fff;
+}
