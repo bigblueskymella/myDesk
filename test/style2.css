@@ -1,14 +1,17 @@
 img {
-    float: left;
-    margin-right: 40px;
+    /*float: left;
+    margin-right: 40px;*/
+    border: solid 1px red;
+    position: relative;
+    
 }
 
 p{
-    border: 1px solid salmon;
+    /*border: 1px solid salmon;*/
     width: 500px; /*80%로 했을 때와 px했을 때 차이*/
 }
 
 body { background-color: darkorange; }
     @media screen and (min-width: 480px) {
-        body { background-color: powderblue; }
+        body { background-color: rgb(233, 231, 255); }
     }
