@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<style>
+    body{
+    display: flex;
+}
+
+.origin{
+    
+    perspective: 200px;
+    border: 1px solid ;
+    
+}
+
+.origin div{
+    transition: all 3s; /*3초 동안 회전하도록*/
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.rotateX:hover{
+    transform: rotateX(55deg);
+}
+
+.rotateY:hover{
+    transform: rotateY(55deg);
+}
+
+.rotateZ:hover{
+    transform: rotateZ(55deg);
+}
+
+.rotateXyz:hover{
+    transform: rotate3d(2.5, 1.2, -1.5, 55deg);
+}
+</style>
+
+<body>
+    <div class="origin">
+        <div class="rotateX"></div>
+    </div>
+    <div class="origin">
+        <div class="rotateY"></div>
+    </div>
+    <div class="origin">
+        <div class="rotateZ"></div>
+    </div>
+    <div class="origin">
+        <div class="rotateXyz"></div>
+    </div>
+</body>
+
+</html>
