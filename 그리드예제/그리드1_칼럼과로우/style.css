@@ -1,0 +1,39 @@
+#wrapper{
+    width: 700px;
+    display: grid; /*그리드 컨테이너 지정*/
+    grid-template-columns: 1fr 1fr 1fr; /*repeat(3, 1fr)로 쓸수있다*/
+    /*200px 200px 200px; /*너비가 같은 칼럼 3개*/
+    grid-template-rows:100px; /*줄은 100px*/
+    /*minmax(100px,auto) 줄높이는 최소 100px*/
+    /*grid-gap: 20px 30px; /*칼럼갭과 로우갭*/*/
+}
+
+.items1, .items3, .items5{
+    background-color: gainsboro;
+}
+
+.box1{
+    background-color: #3689ff;
+    /*grid-column: 1/4;*/
+    grid-area:box1;
+}
+
+.box2{
+    background-color: #00cf12;
+    /*grid-row:2/4;*/
+    grid-area: box2;
+}
+
+.box3{
+    background-color: #ff9019;
+    /*grid-column: 2/4;
+    grid-row-start: 2;*/
+    grid-area: box3;
+}
+
+.box4{
+    background-color: #ffd000;
+    /*grid-column-start: 3;
+    grid-row-start: 3;*/
+    grid-area: box4;
+}

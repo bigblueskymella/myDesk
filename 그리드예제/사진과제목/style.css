@@ -1,0 +1,26 @@
+body{
+    background-color: #eee;
+    font-size: 13px;
+}
+
+#wrapper{
+    display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 1fr;
+    grid-gap:1rem 1rem;
+}
+
+.card{
+    border: solid 1px lightgrey;
+}
+
+.card header, p{
+    margin-left: 25px;
+    /*border: solid 1px red;*/
+}
+
+.card img{
+    height: 150px;
+    width: 200px;
+}
