@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    flex-direction: column;
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+  }
+  .box-center {
+    align-self: center;
+  }
+  .box-end {
+    align-self: flex-end;
+  }

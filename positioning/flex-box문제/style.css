@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+    border: solid 1px gray;
+    background-color: lightpink;
+    color: black;
+  }
+  .sub-main {
+    display: flex;
+  }
+  .mr-5 {
+    margin-right: 5px;
+  }
+  
